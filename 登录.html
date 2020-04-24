@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<link type="text/css" rel="stylesheet" href="登录.css" />
+	
+</head>
+
+<body>
+	<!--<script language="javascript1.5">
+	    function form(){
+			var x=document.forms['nform']['name'].value;
+			var y=document.forms['nform']['psd'].value;
+			if(x==''||y=='')
+			alert('请填写相关内容!');
+			return;
+		}
+	</script>-->
+	
+	<div class="div_input">
+		<form action="action.php"  name="nform" method="post" onSubmit="my()">
+			<h2 class="nav">LOGIN</h2>
+			<a><img src="user.png" width="30px" alt="无法加载!"></a>
+			<br>
+		   <input type="text" id="text1" placeholder="username" class="input_user" name="name" autocomplete="off" required>
+			<a href="#" class="log">没有账号？</a>
+			<br>
+			<br>
+			<br>
+			<b><img src="密码.png" width="30px" alt="无法加载!"></b>
+		   <input type="password" placeholder="password" class="input_psd" name="psd" required>						
+
+			<br>
+			<br>
+			<br>
+			 <button class="input_sign">sign in</button>
+		</form>
+		<a href="#"  class="forget">忘记密码？</a>
+	</div>
+	<p class="author">lcrazyl</p>
+</body>
+</html>

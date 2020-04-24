@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image:url(" 微信图片_20200410105319.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+input{outline: none;}
+.log{
+	position: absolute;
+	top: 24%;
+	font-size: 15px;
+	left: 63%;
+	text-decoration: none;
+	color:aqua;
+}
+.forget{
+	position: absolute;
+	top: 37.5%;
+	font-size: 15px;
+	left: 63%;
+	text-decoration: none;
+	color: red;
+	
+}
+.div_input{
+	background-color:#968282;
+	background-color:rgba(15,0,0,0.5);
+	padding: 50px;
+	width: 23%;
+	height: 250px;
+	margin-top: 5%;
+	margin-left: 39%;
+	font-size: 25px;
+}
+.nav{
+	text-align: center;
+	font-family: "仿宋";
+	font-size: 25px;
+	position: absolute;
+	text-decoration-style: double;
+	top: 10%;
+	left: 50%;
+	color:#FFBDBE;	
+}
+a{position: absolute;
+left: 40%;
+top: 22%;}
+b{position: absolute;
+left: 40%;
+top: 35.5%;}
+
+
+.input_user{
+	border: 0;
+	background-color:#FFFFFF00;
+	border-bottom: solid #FFFFFF 2px;
+	font-size: 25px;
+	
+}
+.input_psd{	
+	border: 0;
+	background-color:#FFFFFF00;
+	border-bottom: solid 2px #FFFFFF;
+	font-size: 25px;
+
+
+}
+.input_sign{
+	
+	margin: auto;
+	margin-left: 30%;
+	font-size: 20px;
+	border-radius: 10px;
+	background-image: url( "035 Itmeo Branding.png");
+}
+.author{
+	color: white;
+	font-size: 20px;
+	font-family: "汉仪粗宋简";
+    position: absolute;
+	bottom: 20px;
+    right: 30px;
+}
